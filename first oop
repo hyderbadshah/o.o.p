@@ -1,0 +1,49 @@
+package mfp;
+
+public class mfc {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+   cl ship = new cl();
+   ship.sender_name = "badshah";
+    ship.receiver_name = "rahim" ; 
+	ship.cost_per_pound = 24;
+	ship.weight = 6 ;
+	
+	
+	 cl ship2 = new cl  ();
+	   ship2.sender_name = "hyder";
+	    ship2.receiver_name = "moloo" ; 
+		ship2.cost_per_pound = 42;
+		ship2.weight = 15 ;
+	   
+	 msc fx = new msc ();
+	 fx.colour = "myganda";
+	 fx.model = "benz";
+	 fx.type = "dual";
+	 fx.cylinder = 8 ;
+	 
+	 
+	 msc mehran = new msc ();
+	 mehran.colour = "myganda";
+	 mehran.model = "benz";
+	 mehran.type = "dual";
+	 mehran.cylinder = 8 ;
+	 
+	 
+	 person mr = new person ();
+	 mr.name = "boy";
+	 mr.age = 15 ;
+	 mr.height = 5.8 ; 
+	 
+	 person mrs = new person ();
+	 mrs.name = "girl";
+	 mrs.age = 24 ;
+	 mrs.height = 5.1 ;
+	
+	 
+	 System.out.println(ship.shipping_cost());
+	 
+	 
+	 	}
+}
